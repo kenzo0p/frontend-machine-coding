@@ -20,7 +20,7 @@ class App extends Component {
 
   toggleBio = () => {
     this.setState(prev => ({
-      showBio : !prev.showbio
+      showBio : !prev.showBio
     }))
   }
 
